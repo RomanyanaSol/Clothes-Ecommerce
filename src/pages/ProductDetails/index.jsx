@@ -15,14 +15,19 @@ export default function ProductDetails() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []); 
-  
+  }, []);
+
+
   if (!product) {
     return <section className={s.loading}>Loading...</section>
   }
 
-
   const { title, price, description, image } = product;
+
+  const shortenText = (description, maxLength) =>
+    description.length > maxLength ? description.slice(0, maxLength) + '...' : description;
+
+
 
   return (
     <section className={s.section}>
@@ -35,9 +40,9 @@ export default function ProductDetails() {
             <h1 className={s.h1}>{title}</h1>
           </div>
           <div className={s.price}>
-          $ {price}
+            $ {price}
           </div>
-          <p className={s.description}>{description}</p>
+          <p className={s.description}>{shortenText(description, 200)}</p>
           <button
             className={s.button}
             onClick={() => addToCart(product, product.id)}>
