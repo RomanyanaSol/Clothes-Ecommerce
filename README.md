@@ -12,11 +12,11 @@ Link https://clothes-ecommerce-ten.vercel.app
 
 ## About The Project
 
-- online-store has search: country, type and price
+- Clothes online-store 
 - responsive design
 
 <p align="center">
-<img src="https://github.com/RomanyanaSol/Real-estate/blob/main/Responsive%20demo.gif" >
+<img src="https://github.com/RomanyanaSol/Clothes-Ecommerce/blob/main/Clothes%20responsive.gif" >
 </p>
 
 
@@ -30,7 +30,6 @@ Link https://clothes-ecommerce-ten.vercel.app
 - React Router (navigation)
 - React Hooks
 - useContext
-- React Pagination 
 - CSS-Modules 
 
 
