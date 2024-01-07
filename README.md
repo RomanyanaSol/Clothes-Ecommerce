@@ -1,6 +1,6 @@
-# Real estate store
+# Clothes Ecommerce
 
-Link https://real-estate2-seven.vercel.app/
+Link https://clothes-ecommerce-ten.vercel.app
 
 ## Demo
 
