@@ -36,9 +36,7 @@ export default function ProductDetails() {
           <img src={image} alt="" className={s.image} />
         </div>
         <div className={s.flexCol}>
-          <div className={s.h1Cont}>
-            <h1 className={s.h1}>{title}</h1>
-          </div>
+          <h1 className={s.h1}>{title}</h1>
           <div className={s.price}>
             $ {price}
           </div>
