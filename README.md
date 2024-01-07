@@ -5,7 +5,7 @@ Link https://clothes-ecommerce-ten.vercel.app
 ## Demo
 
 <p align="center">
-<img src="https://github.com/RomanyanaSol/Real-estate/blob/main/Real%20estate%20Demo.gif">
+<img src="https://github.com/RomanyanaSol/Clothes-Ecommerce/blob/main/clothesEcommerce%20demo.gif">
 </p>
 
 
