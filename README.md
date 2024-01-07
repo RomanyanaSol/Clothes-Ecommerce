@@ -12,7 +12,9 @@ Link https://clothes-ecommerce-ten.vercel.app
 
 ## About The Project
 
-- Clothes online-store 
+- Clothes online-store
+- cart with increase, decrease, delete, amount & total items
+- use https://fakestoreapi.com
 - responsive design
 
 <p align="center">
